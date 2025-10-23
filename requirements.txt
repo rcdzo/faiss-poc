@@ -3,7 +3,8 @@
 
 # Busca vetorial e índices
 faiss-cpu>=1.8.0
-# faiss-gpu>=1.8.0  # Descomente se tiver GPU NVIDIA
+# faiss-gpu>=1.8.0  # Descomente para GPU NVIDIA (AWS g4dn.2xlarge com T4)
+#                   # pip uninstall faiss-cpu && pip install faiss-gpu
 
 # Manipulação de dados
 pandas>=2.1.0
