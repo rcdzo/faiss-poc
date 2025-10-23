@@ -1,0 +1,32 @@
+# POC - Sistema Inteligente de Busca e Correção de Endereços DNE
+# Dependências principais - Compatível com Python 3.12
+
+# Busca vetorial e índices
+faiss-cpu>=1.8.0
+# faiss-gpu>=1.8.0  # Descomente se tiver GPU NVIDIA
+
+# Manipulação de dados
+pandas>=2.1.0
+pyarrow>=14.0.0
+numpy>=1.24.0
+
+# Embeddings e NLP
+sentence-transformers>=2.2.0
+transformers>=4.36.0
+torch>=2.1.0
+
+# Normalização textual
+unidecode>=1.3.0
+fuzzywuzzy>=0.18.0
+python-Levenshtein>=0.23.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+
+# Utilitários
+tqdm>=4.66.0
+jupyter>=1.0.0
+ipywidgets>=8.1.0
+
+# Validação de CEP
+requests>=2.31.0
