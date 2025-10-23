@@ -1,0 +1,7 @@
+# Ignorar arquivos de dados grandes
+*.parquet
+*.csv
+*.xlsx
+
+# Ignorar índices FAISS gerados
+indices/
